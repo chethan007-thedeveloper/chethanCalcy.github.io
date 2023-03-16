@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chethan'S Own Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./about_style.css">
+    <link rel="stylesheet" href="./media_query.css" />
+  </head>
+  <body>
+    <div id="main-heading">
+      <h1>Calculator</h1>
+    </div>
+    <div class="main-container">
+      <div class="cal-container">
+        <div class="display">
+          <input type="text" id="result" disabled placeholder="0" />
+        </div>
+        <div class="buttons">
+          <button class="clear_equals-button" onclick="clearScreen()">C</button>
+          <button class="clear_equals-button" onclick="backspace()">CE</button>
+          <button class="arthematic-button" onclick="addToScreen('/')">
+            /
+          </button>
+          <button class="arthematic-button" onclick="addToScreen('*')">
+            *
+          </button>
+          <button class="digits-button" onclick="addToScreen('7')">7</button>
+          <button class="digits-button" onclick="addToScreen('8')">8</button>
+          <button class="digits-button" onclick="addToScreen('9')">9</button>
+          <button class="arthematic-button" onclick="addToScreen('-')">
+            -
+          </button>
+          <button class="digits-button" onclick="addToScreen('4')">4</button>
+          <button class="digits-button" onclick="addToScreen('5')">5</button>
+          <button class="digits-button" onclick="addToScreen('6')">6</button>
+          <button class="arthematic-button" onclick="addToScreen('+')">
+            +
+          </button>
+          <button class="digits-button" onclick="addToScreen('1')">1</button>
+          <button class="digits-button" onclick="addToScreen('2')">2</button>
+          <button class="digits-button" onclick="addToScreen('3')">3</button>
+          <button class="clear_equals-button" onclick="calculate()">=</button>
+          <button class="digits-button" onclick="addToScreen('0')">0</button>
+          <button class="extras" onclick="addToScreen('2')">2</button>
+          <button class="extras" onclick="addToScreen('2')">2</button>
+          <button class="digits-button" onclick="addToScreen('.')">.</button>
+        </div>
+      </div>
+
+      <!------------------------------****************- ABOUT ME -********************************-------------------->
+      <div class="my-info">
+        <div class="about-container">
+          <h2>About me</h2>
+          <p>
+            <img src="./Mypic.jpg" alt="Image description"/> I am Chethan R from Bangalore, India. Ihis calculator Website was built by me alone.<br> If you have any suggestions or ideas to improve this website more and even, If you want to reach me, Please contact me using below details.
+          </p>
+        </div>
+        <div class="contact-info">
+          <h3>Contact me</h3>
+          <p>chethanrnaidu1998@gmail.com</p>
+          <p>+91-9845717432</p>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

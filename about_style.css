@@ -1,0 +1,50 @@
+/* ==================================================About page================================================== */
+
+.my-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(71, 66, 66);
+    gap: 2rem;
+  }
+  .about-container h2{
+    font-family: "Inter", sans-serif;
+  }
+  .about-container p {
+    width: 80%;
+    padding-left: 0.8rem;
+  }
+  .about-container img{
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 50%;
+  }
+  
+  .contact-info h3 {
+    color: rgb(196, 70, 70);
+    
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .contact-info{
+    height: 30vh;
+  }
+  .contact-info p {
+    color: white;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+    padding-left: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  .about-container h2 {
+    color: rgb(196, 70, 70);
+    margin-bottom: 1rem;
+  }
+  .about-container p {
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  
